@@ -102,6 +102,7 @@ section {
   color: #fff;
   font-size: 1.7em;
   padding-right: 30px;
+  text-decoration: none;
 }
 
 /* services section */
@@ -139,6 +140,7 @@ section {
   color: #3a6cf4;
   font-size: 8em;
   text-align: center;
+  justify-content: center;
 }
 
 .info {
@@ -230,4 +232,22 @@ section {
 
 .contact .info p {
   font-size: 1.4em;
+}
+
+/* footer */
+.footer {
+  background-color: #000016;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #3a6cf4;
 }
