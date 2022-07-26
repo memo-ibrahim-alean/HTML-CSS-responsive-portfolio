@@ -210,3 +210,24 @@ section {
 .more-details:hover {
   color: #601cfc;
 }
+
+/* contact section */
+.contact .card {
+  width: 28em;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .icon {
+  font-size: 4.5em;
+}
+
+.contact .info h3 {
+  color: #000;
+}
+
+.contact .info p {
+  font-size: 1.4em;
+}
