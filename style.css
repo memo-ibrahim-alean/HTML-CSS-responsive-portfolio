@@ -251,3 +251,96 @@ section {
 .footer-title span {
   color: #3a6cf4;
 }
+
+/* media query */
+@media (max-width: 1023px) {
+  header {
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .logo {
+    font-size: 1.5em;
+    padding-left: 20px;
+  }
+
+  .navigation {
+    font-size: 1.2em;
+    padding-right: 10px;
+  }
+
+  .navigation a {
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  .main {
+    padding: 80px 40px;
+  }
+
+  .main p {
+    color: #fff;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+  }
+
+  .main h2 {
+    font-size: 1.2em;
+  }
+
+  .cards {
+    padding: 20px 30px;
+  }
+
+  .cards .title {
+    font-size: 2em;
+  }
+
+  .projects {
+    padding: 20px 30px;
+  }
+
+  .projects .title {
+    font-size: 2em;
+  }
+
+  .contact,
+  .footer {
+    font-size: 11px;
+  }
+
+  .footer {
+    padding: 0.5em;
+  }
+
+  .social-icons a {
+    padding-right: 10px;
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
+  }
+
+  .main-content h2 {
+    font-size: 0.8em;
+  }
+
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
